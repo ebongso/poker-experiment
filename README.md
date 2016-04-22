@@ -1,2 +1,2 @@
 # poker-experiment
-simple poker console
+simple poker console to show hands
