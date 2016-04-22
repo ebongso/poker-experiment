@@ -45,7 +45,7 @@ var hands = function()  {
       //Validate the face actually exists
       faces[i] = face;
       if(!FACE_RANKING.hasOwnProperty(faces[i])) { 
-        console.log("One of the faces, " + faces[i] + ", is invalid. Thank you for playing.");
+        console.log("One of the faces, " + faces[i] + ", is invalid or not an upper-case letter. Thank you for playing.");
         return;
       }
       
@@ -55,7 +55,7 @@ var hands = function()  {
       //Validate the suit actually exists
       suits[i] = cards[i].slice(-1);
       if(!SUIT_RANKING.hasOwnProperty(suits[i])) {
-        console.log("One of the suits, " + suits[i] + ", is invalid. Thank you for playing.");
+        console.log("One of the suits, " + suits[i] + ", is invalid or not an upper-case letter. Thank you for playing.");
         return;
       }
     }
