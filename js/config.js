@@ -19,7 +19,7 @@ const FACE_RANKING = {
 };
 
 //This is ranked according to the "Poker Question.txt" description.
-//Club is ranked the highest.
+//Clubs is ranked the highest.
 const SUIT_RANKING = {
   "C": 1,
   "D": 2,
